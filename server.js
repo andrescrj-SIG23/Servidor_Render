@@ -19,6 +19,16 @@ app.get('/', (req, res) => {
   res.send(`
     <h1>Servidor GeoJSON activo</h1>
     <p>Accede a: <a href="/Departamentos.geojson">Departamentos.geojson</a></p>
+<p>Accede a: <a href="/MuniRegion1.geojson">MuniRegion1.geojson</a></p>
+<p>Accede a: <a href="/MuniRegion10.geojson">MuniRegion10.geojson</a></p>
+<p>Accede a: <a href="/MuniRegion2.geojson">MuniRegion2.geojson</a></p>
+<p>Accede a: <a href="/MuniRegion3.geojson">MuniRegion3.geojson</a></p>
+<p>Accede a: <a href="/MuniRegion4.geojson">MuniRegion4.geojson</a></p>
+<p>Accede a: <a href="/MuniRegion5.geojson">MuniRegion5.geojson</a></p>
+<p>Accede a: <a href="/MuniRegion6.geojson">MuniRegion6.geojson</a></p>
+<p>Accede a: <a href="/MuniRegion7.geojson">MuniRegion7.geojson</a></p>
+<p>Accede a: <a href="/MuniRegion8.geojson">MuniRegion8.geojson</a></p>
+<p>Accede a: <a href="/MuniRegion9.geojson">MuniRegion9.geojson</a></p>
   `);
 });
 
