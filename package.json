@@ -1,12 +1,12 @@
 {
   "name": "servidor_render",
   "version": "1.0.0",
-  "description": "Servidor para servir GeoJSON con CORS habilitado",
+  "description": "Servidor GeoJSON con CORS para visor FOMAG",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
   },
-  "author": "Tu Nombre",
+  "author": "Andrés Camilo Romero",
   "license": "ISC",
   "dependencies": {
     "express": "^4.19.2",
