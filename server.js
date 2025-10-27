@@ -8,7 +8,7 @@ const app = express();
 // HABILITA CORS PARA TODOS LOS ORÍGENES (localhost y GitHub Pages)
 app.use(cors({
   origin: true, // Permite cualquier origen (ideal para desarrollo)
-  // origin: ['http://127.0.0.1:5500', 'https://andresci-SIG23.github.io'] // Más seguro en producción
+  // origin: ['http://127.0.0.1:5500', 'https://andrescrj-sig23.github.io'] // Más seguro en producción
 }));
 
 // Sirve archivos estáticos desde la carpeta /public
